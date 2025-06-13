@@ -6,7 +6,7 @@ import EmailIcon from '@mui/icons-material/Email';
 const Hero = () => {
 
     const StyledHero = styled("div")(() => ({
-        backgroundColor: "rgba(184, 185, 190, 0.5)" ,
+        
         height: "100vh",
     }))
 
@@ -25,8 +25,8 @@ const Hero = () => {
                         <Grid size={8}>
                             <Typography variant="h1" color="primary" textAlign={"center"}>João Marcelo Carneiro</Typography>
                             <Typography variant="h2" color="primary" textAlign={"center"}>Desenvolvedor Front-End</Typography>
-                            <Button><FileDownloadIcon />Download CV</Button>
-                            <Button><EmailIcon />Contact</Button>
+                            <Button ><FileDownloadIcon />Download CV</Button>
+                            <Button ><EmailIcon />Contact</Button>
                         </Grid>
                     </Grid>
                 </Container>
