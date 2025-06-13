@@ -6,7 +6,6 @@ import EmailIcon from '@mui/icons-material/Email';
 const Hero = () => {
 
     const StyledHero = styled("div")(() => ({
-
         height: "100vh",
     }))
 
