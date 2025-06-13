@@ -1,9 +1,21 @@
+import { styled } from '@mui/material';
+import '@sakun/system.css';
 
 const Hero = () => {
 
+    const StyledHero = styled("div")(() => ({
+        backgroundColor: "black"
+    }))
+
+    const StyledImg = styled("img")(() => ({
+        
+    }))
+
     return (
         <>
-            Hero
+            <StyledHero>
+                ola
+            </StyledHero>
         </>
     )
 }
